@@ -1,2 +1,3 @@
 # Projects portfolio
-This is a website where i can upload descriptions, demos and instructions for some of my projects
+
+Dette er en nettside hvor jeg kan samle dokumentasjon for alle prosjektene mine på ett presist sted. Det gjør det enklere for meg og andre som har lyst til å se på prosjektene mine.

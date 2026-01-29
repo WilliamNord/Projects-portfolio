@@ -5,6 +5,7 @@ const projects = [
         description: "Et spennende undervannspill laget med Godot.",
         links: [
             { text: "GitHub", url: "https://github.com/WilliamNord/underwater-explorer-godot" },
+            { text: "Personvernerklæring", url: "privacy-policy-godot.html", type: "internal" },
         ]
     },
     {
@@ -42,7 +43,10 @@ function createProjectCard(project) {
         a.href = link.url;
         a.textContent = link.text;
         a.className = `project-link ${link.type || ''}`;
-        a.target = '_blank';
+        // Kun åpne i ny fane hvis det IKKE er en intern lenke
+        if (link.type !== 'internal') {
+            a.target = '_blank';
+        }
         linksContainer.appendChild(a);
     });
     
