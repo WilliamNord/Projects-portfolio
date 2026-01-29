@@ -2,7 +2,7 @@
 const projects = [
     {
         title: "Godot undervannspill",
-        description: "Et spennende undervannspill laget med Godot.",
+        description: "Et undervannspill laget med Godot.",
         links: [
             { text: "GitHub", url: "https://github.com/WilliamNord/underwater-explorer-godot" },
             { text: "Personvernerklæring", url: "privacy-policy-godot.html", type: "internal" },
