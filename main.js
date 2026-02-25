@@ -20,6 +20,7 @@ const projects = [
         description: "En annen beskrivelse av et prosjekt.",
         links: [
             { text: "GitHub", url: "https://github.com/dittbrukernavn/prosjekt3" },
+            { text: "Personvernerklæring", url: "privacy-policy-python_backend.html", type: "internal" },
         ]
     }
 ];
