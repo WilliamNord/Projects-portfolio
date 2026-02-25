@@ -9,10 +9,10 @@ const projects = [
         ]
     },
     {
-        title: "Prosjekt 2",
-        description: "En annen beskrivelse av et prosjekt.",
+        title: "Python backend",
+        description: "Dette er et prosjekt hvor jeg bruker python og flask til å koble sammen med en database.",
         links: [
-            { text: "GitHub", url: "https://github.com/dittbrukernavn/prosjekt2" },
+            { text: "GitHub", url: "https://github.com/WilliamNord/Backend_python_dev" },
         ]
     },
     {
