@@ -13,6 +13,7 @@ const projects = [
         description: "Dette er et prosjekt hvor jeg bruker python og flask til å koble sammen med en database.",
         links: [
             { text: "GitHub", url: "https://github.com/WilliamNord/Backend_python_dev" },
+            { text: "Personvernerklæring", url: "privacy-policy-python_backend.html", type: "internal" },
         ]
     },
     {
@@ -20,7 +21,6 @@ const projects = [
         description: "En annen beskrivelse av et prosjekt.",
         links: [
             { text: "GitHub", url: "https://github.com/dittbrukernavn/prosjekt3" },
-            { text: "Personvernerklæring", url: "privacy-policy-python_backend.html", type: "internal" },
         ]
     }
 ];
